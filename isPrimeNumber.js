@@ -1,0 +1,8 @@
+function isPrimeNumber(number) {
+  for (i = 2; i <= number - 1; i++) {
+    if (number % i == 0) {
+      return false;
+    }
+  }
+  return true;
+}
